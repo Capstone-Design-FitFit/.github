@@ -1,12 +1,4 @@
-## Hi there 👋
-
-<!--
-
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+## 팀원
+|<img src="https://avatars.githubusercontent.com/u/101933437?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/100333575?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/75315461?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/75584814?v=4" width="150" height="150"/>|
+|:-:|:-:|:-:|:-:|
+|Jinsoo Park<br/>[@jinny908](https://github.com/jinny908)||Jayoung Kim<br/>[@jaeyo03](https://github.com/jaeyo03)|
