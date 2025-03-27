@@ -87,9 +87,9 @@
 | **클라우드 플랫폼** | AWS 기반의 가상 사설 클라우드(VPC) 구조 사용 |
 | **도메인 관리** | Gabia를 통해 도메인 구매 및 연결 |
 | **프론트엔드** | React 기반 SPA 웹앱을 Public Subnet에서 서비스 |
-| **백엔드 서버** | - Spring Boot (Java): 사용자 데이터 처리, DB 연동, API 제공<br>- FastAPI (Python): Hugging Face Gradio API 연동 및 AI 이미지 처리 |
-| **DB 및 스토리지** | - RDS: 사용자 정보 및 이력 저장용 관계형 데이터베이스<br>- S3: AI 결과 이미지 저장 및 제공 |
-| **서브넷 구성** | - Public Subnet: Load Balancer, React 앱 배포<br>- Private Subnet: Spring Boot, FastAPI, RDS 등 내부 보안 서비스 운영 |
+| **백엔드 서버** | Spring Boot (Java): 사용자 데이터 처리, DB 연동, API 제공<br>FastAPI (Python): Hugging Face Gradio API 연동 및 AI 이미지 처리 |
+| **DB 및 스토리지** | RDS: 사용자 정보 및 이력 저장용 관계형 데이터베이스<br>S3: AI 결과 이미지 저장 및 제공 |
+| **서브넷 구성** | Public Subnet: Load Balancer, React 앱 배포<br>Private Subnet: Spring Boot, FastAPI, RDS 등 내부 보안 서비스 운영 |
 
 ### 다이어그램
 
