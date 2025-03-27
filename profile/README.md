@@ -89,14 +89,17 @@
 ## 결과 및 성과
 
 ### 결과
-- **SSIM (Structural Similarity Index Measure)**: 1에 가까울수록 원본 이미지와 유사도가 높음
+- **SSIM (Structural Similarity Index Measure)**: 1에 가까울수록 원본 이미지와 유사도가 높음  
 - **LPIPS (Learned Perceptual Image Patch Similarity)**: 0에 가까울수록 원본 이미지와 유사도가 높음  
-  ![결과 이미지1](https://github.com/user-attachments/assets/fa23abc4-4189-4a37-adcb-f5f28b47898a)
-  ![결과 이미지2](https://github.com/user-attachments/assets/74172b4a-d5e3-4f53-836b-6ec19c90bd83)
+
+| SSIM & LPIPS0 | 결과 |
+|:---:|:---:|
+| ![결과 이미지1](https://github.com/user-attachments/assets/fa23abc4-4189-4a37-adcb-f5f28b47898a) | ![결과 이미지2](https://github.com/user-attachments/assets/74172b4a-d5e3-4f53-836b-6ec19c90bd83) |
+
 
 ### 성과
 - 한국IT서비스학회 논문 제출 및 발표
-- Wrtn Ideathon 대회 참가 및 2등 수상  
+- Wrtn Ideathon 대회 참가
   ![성과 이미지](https://github.com/user-attachments/assets/ef4ebc97-8563-4bd7-87e7-cc526701dda4)
 
 ---
@@ -112,7 +115,5 @@
 ## 발표 영상
 [발표 영상 바로가기](https://www.youtube.com/watch?v=3Z11fcEMB6k)
 
----
 
-추가 문의 및 개선 제안 사항은 언제든 환영합니다!
 
