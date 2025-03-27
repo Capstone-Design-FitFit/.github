@@ -78,10 +78,7 @@
 
 | Use Case Diagram | Sequence Diagram | Class Diagram |
 |:---:|:---:|:---:|
-| ![Use Case](<img width="449" alt="image" src="https://github.com/user-attachments/assets/dc377f5f-f65d-4779-a03e-43f185a7ed1d" />
-) | ![Sequence](<img width="455" alt="image" src="https://github.com/user-attachments/assets/40e87fc3-7636-4225-9228-6bb36a35a372" />
-) | ![Class](<img width="363" alt="image" src="https://github.com/user-attachments/assets/4588d171-6063-4ba8-9642-ed5206cf9b37" />
-) |
+| ![Use Case](<img width="449" alt="image" src="https://github.com/user-attachments/assets/dc377f5f-f65d-4779-a03e-43f185a7ed1d" />) | ![Sequence](<img width="455" alt="image" src="https://github.com/user-attachments/assets/40e87fc3-7636-4225-9228-6bb36a35a372" />) | ![Class](<img width="363" alt="image" src="https://github.com/user-attachments/assets/4588d171-6063-4ba8-9642-ed5206cf9b37" />) |
 
 
 ---
