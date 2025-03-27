@@ -34,7 +34,8 @@
 - 자세 유사도를 분석하여 최적의 자세를 가이드하고, 사용자의 자세를 실시간으로 평가
 - 다양한 체형과 자세에서도 정확한 피팅 결과를 제공할 수 있는 시스템 구축
 ![Image](https://github.com/user-attachments/assets/29e8f238-f88e-46f2-8c6f-174c786ea74d)
-
+![Image](https://github.com/user-attachments/assets/cb493713-69ce-42fa-9606-132f5583b91a)
+![image](https://github.com/user-attachments/assets/53474486-ddf3-4d1c-a02c-e882c5bf32e4)
 
 ---
 
@@ -42,14 +43,23 @@
 
 ### 1. 자세 유사도 분석
 - BlazePose를 활용한 정확한 신체 트래킹
+  ![image](https://github.com/user-attachments/assets/c3bffd10-398f-45e0-86e5-6b84bc8e8477)
+
 - 코사인 유사도 기반으로 자세 유사도 수치화
+  ![image](https://github.com/user-attachments/assets/8b6efa42-baa1-4e5f-a5d4-b6719eb6229e)
+
 
 ### 2. Grid 기반 가상 피팅
 - 자세 유사도 점수가 0.9 이상일 때 최적 피팅 진행
 - 사용자가 최적의 자세를 쉽게 취할 수 있도록 화면에 그리드 표시
+  ![image](https://github.com/user-attachments/assets/8c5fee73-59b5-4b22-bb1b-17fbc050f3b6)
+
+
 
 ### 3. 반응형 UI
 - 모바일과 데스크탑 모두에서 원활한 사용 경험을 제공하도록 UI 설계
+  ![image](https://github.com/user-attachments/assets/e2e97f74-b2d1-47bf-a86e-e9e55102b5d2)
+
 
 ---
 
@@ -59,11 +69,18 @@
 - 사용자가 의류 선택 및 최적 자세 촬영
 - 촬영된 자세의 유사도 평가
 - Stable Viton 기반의 고품질 가상 피팅 처리
+  ![image](https://github.com/user-attachments/assets/3ac885c0-b4d4-4ced-b401-ff4bd2d4e0d2)
+### 인프라 아키텍쳐
+- AWS 기반의 인프라 아키텍쳐 설계
+  ![image](https://github.com/user-attachments/assets/98e556a3-b49e-4f3e-848d-8254ae3aa816)
+
 
 ### 다이어그램
 - Use Case Diagram
 - Sequence Diagram
 - Class Diagram
+  ![image](https://github.com/user-attachments/assets/61360038-246f-44ac-9b64-55b823d179ea)
+
 
 ---
 
@@ -72,10 +89,14 @@
 ### 결과
 - **SSIM (Structural Similarity Index Measure)**: 1에 가까울수록 원본 이미지와 유사도가 높음
 - **LPIPS (Learned Perceptual Image Patch Similarity)**: 0에 가까울수록 원본 이미지와 유사도가 높음
+<img width="566" alt="image" src="https://github.com/user-attachments/assets/fa23abc4-4189-4a37-adcb-f5f28b47898a" />
+<img width="895" alt="image" src="https://github.com/user-attachments/assets/74172b4a-d5e3-4f53-836b-6ec19c90bd83" />
+
 
 ### 성과
 - 한국IT서비스학회 논문 제출 및 발표
 - Wrtn Ideathon 대회 참가
+<img width="1514" alt="image" src="https://github.com/user-attachments/assets/ef4ebc97-8563-4bd7-87e7-cc526701dda4" />
 
 ---
 
@@ -83,6 +104,7 @@
 - 사용자가 따라할 수 있는 다양한 자세 추가
 - 다양한 체형에 대응하는 모델 설정 기능 추가
 - 더욱 성능이 뛰어난 가상 피팅 모델 도입 계획
+  ![image](https://github.com/user-attachments/assets/b186c7c5-6b68-459e-85a1-a278f5206a65)
 
 ---
 
