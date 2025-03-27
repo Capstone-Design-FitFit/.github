@@ -70,11 +70,16 @@
 - Stable Viton 기반의 고품질 가상 피팅 처리
 ![목표 이미지3](https://github.com/user-attachments/assets/53474486-ddf3-4d1c-a02c-e882c5bf32e4)
 
+### 백엔드 개발
+- 원래는 모든 백엔드 기능을 Spring Boot로 통합 개발하고자 했으나,
+Hugging Face의 Gradio API 사용을 위해 Python 기반의 FastAPI 서버를 병행하여 구성
+
+- Spring Boot는 사용자 CRUD 및 일반 API 처리를 담당하고, 
+FastAPI는 AI 모델 호출 및 처리에 특화된 기능을 분리하여 담당
+
 ### 인프라 아키텍처
 - AWS 기반 인프라 설계  
   ![AWS 인프라](https://github.com/user-attachments/assets/98e556a3-b49e-4f3e-848d-8254ae3aa816)
-
-### 다이어그램
 
 ### 다이어그램
 
