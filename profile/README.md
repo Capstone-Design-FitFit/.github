@@ -108,7 +108,7 @@
 - **SSIM (Structural Similarity Index Measure)**: 1에 가까울수록 원본 이미지와 유사도가 높음  
 - **LPIPS (Learned Perceptual Image Patch Similarity)**: 0에 가까울수록 원본 이미지와 유사도가 높음  
 
-| SSIM & LPIPS0 | 결과 |
+| SSIM & LPIPS | 결과 |
 |:---:|:---:|
 | ![결과 이미지1](https://github.com/user-attachments/assets/fa23abc4-4189-4a37-adcb-f5f28b47898a) | ![결과 이미지2](https://github.com/user-attachments/assets/74172b4a-d5e3-4f53-836b-6ec19c90bd83) |
 
