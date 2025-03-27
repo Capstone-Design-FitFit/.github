@@ -34,7 +34,7 @@
 - 자세 유사도를 분석하여 최적의 자세를 가이드하고, 사용자의 자세를 실시간으로 평가
 - 다양한 체형과 자세에서도 정확한 피팅 결과를 제공할 수 있는 시스템 구축
 
-| 목표 이미지1 | 목표 이미지2 |
+| Problems | Goals |
 |:---:|:---:|
 | ![목표 이미지1](https://github.com/user-attachments/assets/29e8f238-f88e-46f2-8c6f-174c786ea74d) | ![목표 이미지2](https://github.com/user-attachments/assets/cb493713-69ce-42fa-9606-132f5583b91a) |
 
