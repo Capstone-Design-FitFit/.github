@@ -79,13 +79,12 @@
 - FastAPI는 AI 모델 호출 및 이미지 처리 관련 기능 수행 (Gradio API 연동 포함)
 
 ### 인프라 아키텍처
-- AWS 기반 인프라 설계  
   ![AWS 인프라](https://github.com/user-attachments/assets/98e556a3-b49e-4f3e-848d-8254ae3aa816)
 
 | 항목 | 내용 |
 |:--|:--|
 | **클라우드 플랫폼** | AWS 기반의 가상 사설 클라우드(VPC) 구조 사용 |
-| **도메인 관리** | Gabia를 통해 도메인 구매 및 연결 |
+| **도메인 관리** | Gabia와 ACM을 통한 도메인 구매 및 연결 |
 | **프론트엔드** | React 기반 SPA 웹앱을 Public Subnet에서 서비스 |
 | **백엔드 서버** | Spring Boot (Java): 사용자 데이터 처리, DB 연동, API 제공<br>FastAPI (Python): Hugging Face Gradio API 연동 및 AI 이미지 처리 |
 | **DB 및 스토리지** | RDS: 사용자 정보 및 이력 저장용 관계형 데이터베이스<br>S3: AI 결과 이미지 저장 및 제공 |
