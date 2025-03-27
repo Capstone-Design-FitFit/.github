@@ -9,6 +9,7 @@
 |<img src="https://avatars.githubusercontent.com/u/75584814?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/137462767?v=4" width="150" height="150"/>|
 |:-:|:-:|
 |Jinsoo Park<br/>[@jinny908](https://github.com/jinny908)|Jayoung Kim<br/>[@jaeyo03](https://github.com/jaeyo03)|
+| 백엔드 + 인프라 구성 | 프론트엔드 + 포즈 유사도 |
 
 ---
 
@@ -71,15 +72,24 @@
 ![목표 이미지3](https://github.com/user-attachments/assets/53474486-ddf3-4d1c-a02c-e882c5bf32e4)
 
 ### 백엔드 개발
-- 원래는 모든 백엔드 기능을 Spring Boot로 통합 개발하고자 했으나,
-Hugging Face의 Gradio API 사용을 위해 Python 기반의 FastAPI 서버를 병행하여 구성
+- 원래는 모든 백엔드 기능을 Spring Boot 기반의 Java 서버로 통합 개발하고자 했으나, Hugging Face의 Gradio API 사용을 위해 Python 기반의 FastAPI 서버를 병행하여 구성
 
-- Spring Boot는 사용자 CRUD 및 일반 API 처리를 담당하고, 
-FastAPI는 AI 모델 호출 및 처리에 특화된 기능을 분리하여 담당
+- Spring Boot는 사용자 인증, CRUD 및 주요 비즈니스 로직 처리 담당
+
+- FastAPI는 AI 모델 호출 및 이미지 처리 관련 기능 수행 (Gradio API 연동 포함)
 
 ### 인프라 아키텍처
 - AWS 기반 인프라 설계  
   ![AWS 인프라](https://github.com/user-attachments/assets/98e556a3-b49e-4f3e-848d-8254ae3aa816)
+
+| 항목 | 내용 |
+|:--|:--|
+| **클라우드 플랫폼** | AWS 기반의 가상 사설 클라우드(VPC) 구조 사용 |
+| **도메인 관리** | Gabia를 통해 도메인 구매 및 연결 |
+| **프론트엔드** | React 기반 SPA 웹앱을 Public Subnet에서 서비스 |
+| **백엔드 서버** | - Spring Boot (Java): 사용자 데이터 처리, DB 연동, API 제공<br>- FastAPI (Python): Hugging Face Gradio API 연동 및 AI 이미지 처리 |
+| **DB 및 스토리지** | - RDS: 사용자 정보 및 이력 저장용 관계형 데이터베이스<br>- S3: AI 결과 이미지 저장 및 제공 |
+| **서브넷 구성** | - Public Subnet: Load Balancer, React 앱 배포<br>- Private Subnet: Spring Boot, FastAPI, RDS 등 내부 보안 서비스 운영 |
 
 ### 다이어그램
 
